@@ -22,3 +22,25 @@ const meuProduto: Product = {
 console.log('--- Validando Produto ---');
 console.log('Nome:', meuProduto.name);
 console.log('O preço do produto é:', meuProduto.price);
+
+
+
+
+interface Product {
+id: number;
+name: string;
+price: number;
+stock_quantity: number;
+sku: string;
+slug: string;
+}
+
+interface Supplier {
+id: number;
+company_name: string;
+contact_name: string;
+email: string;
+phone: string;
+cnpj: string;
+uf: string;
+}
