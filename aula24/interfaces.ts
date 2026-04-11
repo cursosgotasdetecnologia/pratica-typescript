@@ -32,7 +32,7 @@ name: string;
 price: number;
 stock_quantity: number;
 sku: string;
-slug: string;
+
 }
 
 interface Supplier {
