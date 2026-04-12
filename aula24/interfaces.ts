@@ -11,7 +11,7 @@ interface Product {
 
 const meuProduto: Product = {
     id: 1,
-    name: 'Everton',
+    name: 'Everton3',
     price: 129,
     stock_quantity: 100,
     sku: 'MKU-0987',
